@@ -1,45 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>G&S Transport and Logistics</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>G&S Transport and Logistics</h1>
-    <p>Delivering goods across Melbourne and regional Victoria</p>
-  </header>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We are a trusted transport and logistics company based in Melbourne, delivering goods reliably across the region using our professional fleet of trucks.</p>
-  </section>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Same-day delivery in Melbourne metro</li>
-      <li>Regional freight logistics</li>
-      <li>Tailgate and pallet deliveries</li>
-      <li>Bulk transport for businesses</li>
-    </ul>
-  </section>
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-  <section id="coverage">
-    <h2>Service Areas</h2>
-    <p>Melbourne, Geelong, Ballarat, Bendigo, Shepparton, and other key regional centres in Victoria.</p>
-  </section>
+main {
+  padding: 20px;
+}
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: info@gstransportandlogistics.com.au</p>
-    <p>Phone: 0400 123 456</p>
-  </section>
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
-  <footer>
-    <p>&copy; 2025 G&S Transport and Logistics. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
