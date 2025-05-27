@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - G&S</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>G&S Transport and Logistics</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@gstransportandlogistics.com.au">info@gstransportandlogistics.com.au</a></p>
+
+    <form>
+      <label>Name:</label><br />
+      <input type="text" name="name" required /><br />
+      <label>Email:</label><br />
+      <input type="email" name="email" required /><br />
+      <label>Message:</label><br />
+      <textarea name="message" required></textarea><br />
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+</body>
+</html>
