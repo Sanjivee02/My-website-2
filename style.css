@@ -1,37 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  background-color: #f5faff; /* light pastel blue */
+  color: #1a1a1a;
 }
 
 header {
-  background-color: #0077cc;
-  color: white;
-  padding: 20px;
+  background-color: #d1e8ff; /* soft pastel blue */
+  color: #003366;
+  padding: 30px 20px;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #003366;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2, h3 {
+  color: #004080;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #e0f0ff;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-left: 4px solid #007acc;
+  border-radius: 5px;
+}
+
+form {
+  background-color: #ffffff;
   padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
+input, textarea {
   width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-family: inherit;
 }
 
-a {
-  color: #0077cc;
-  text-decoration: none;
+button {
+  background-color: #007acc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
 }
-a:hover {
-  text-decoration: underline;
+
+button:hover {
+  background-color: #005f99;
 }
+
+.testimonials {
+  background-color: #eaf6ff;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
+
+.testimonials h3 {
+  text-align: center;
+}
+
+.testimonial-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-top: 10px;
+  scroll-behavior: smooth;
+}
+
+.testimonial-slider p {
+  min-width: 250px;
+  background: #ffffff;
+  padding: 20px;
+  border-left: 5px solid #007acc;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+
