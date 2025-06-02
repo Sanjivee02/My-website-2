@@ -95,7 +95,12 @@ footer {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #1a1a1a;
   text-align: center;
+
 }
+    .contact-page {
+  background-color: #eef5fb; /* pastel blue to test */
+}
+
 
 .contact-page h1 {
   font-size: 2rem;
@@ -143,6 +148,13 @@ footer {
 
 .contact-form button:hover {
   background-color: #145488;
+  .contact-page {
+  max-width: 1000px;
+  margin: 100px auto 60px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 }
   }
 }
