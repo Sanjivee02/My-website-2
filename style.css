@@ -112,7 +112,8 @@ footer {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   color: #4a6fa1;
-}.main-container {
+}
+    .main-container {
   max-width: 1000px;
   margin: 100px auto 60px auto;
   padding: 20px;
